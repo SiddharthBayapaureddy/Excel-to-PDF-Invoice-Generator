@@ -5,5 +5,12 @@
 ### Instead of making a PDF by hand, it automates the process, and outputs a PDF, based on the format of the excel sheet. The Excel sheet should be of the format as in the invoices folder.
 
 ## What did I use?
+### pandas - For reading and accessing the data in excel files
+### FPDF - Used for all PDF related tasks, such a creating a pdf, adding pages, tables, cells and text etc.,
+
+### glob & pathlib - For getting filepaths of the excel sheets, editing them and extracting data such as invoice number and date. 
+
+
+#
 
 ## Since it's a simple Input/Output App, I didn't provide any GUI for this and it's not necessary as only limited people use it. 
